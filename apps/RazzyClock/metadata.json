@@ -9,5 +9,6 @@
   "readme": "README.md",
   "storage": [
     {"name":"RazzyClock.app.js","url":"app.js"},
+    {"name":"clock.img","url":"app-icon.js","evaluate":true}
   ]
 }
