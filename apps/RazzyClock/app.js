@@ -35,12 +35,12 @@ function draw() {
   g.setFont("Vector",timeSize);
   // draw the current time (4x size 7 segment)
   g.setFontAlign(0,0);
-  g.setColor("#000000");
+  g.setColor("#FFFFFF");
   g.drawString(time,timeCenterX-timeBorder,timeCenterY).drawString(time,timeCenterX+timeBorder,timeCenterY);
   g.drawString(time,timeCenterX,timeCenterY-timeBorder).drawString(time,timeCenterX,timeCenterY+timeBorder);
   g.drawString(time,timeCenterX-timeBorder,timeCenterY-timeBorder).drawString(time,timeCenterX-timeBorder,timeCenterY+timeBorder);
   g.drawString(time,timeCenterX+timeBorder,timeCenterY-timeBorder).drawString(time,timeCenterX+timeBorder,timeCenterY+timeBorder);
-  g.setColor("#FFFFFF");
+  g.setColor("#000000");
   g.drawString(time, timeCenterX, timeCenterY, false);
   
 
@@ -50,12 +50,12 @@ function draw() {
   g.setFont("Vector",dateSize);
   // draw the current time (4x size 7 segment)
   g.setFontAlign(0,0);
-  g.setColor("#000000");
+  g.setColor("#FFFFFF");
   g.drawString(date,dateCenterX-dateBorder,dateCenterY).drawString(date,dateCenterX+dateBorder,dateCenterY);
   g.drawString(date,dateCenterX,dateCenterY-dateBorder).drawString(date,dateCenterX,dateCenterY+dateBorder);
   g.drawString(date,dateCenterX-dateBorder,dateCenterY-dateBorder).drawString(date,dateCenterX-dateBorder,dateCenterY+dateBorder);
   g.drawString(date,dateCenterX+dateBorder,dateCenterY-dateBorder).drawString(date,dateCenterX+dateBorder,dateCenterY+dateBorder);
-  g.setColor("#FFFFFF");
+  g.setColor("#000000");
   g.drawString(date, dateCenterX, dateCenterY, false);
 }
 
