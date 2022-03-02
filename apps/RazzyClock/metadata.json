@@ -1,0 +1,13 @@
+{ "id": "RazzyClock",
+  "name": "Rainbow Clock",
+  "shortName":"Short Name",
+  "version":"0.01",
+  "description": "A detailed description of my great app",
+  "icon": "app.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    {"name":"RazzyClock.app.js","url":"app.js"},
+  ]
+}
