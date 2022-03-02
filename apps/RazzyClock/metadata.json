@@ -1,13 +1,13 @@
-{ "id": "RazzyWhiteClock",
-  "name": "Rainbow White Clock",
-  "shortName":"Rainbow White Clock",
+{ "id": "RazzyClock",
+  "name": "Rainbow Clock",
+  "shortName":"Rainbow Clock",
   "version":"0.01",
   "description": "A rainbow backed clock",
   "icon": "app.png",
   "tags": "",
   "supports" : ["BANGLEJS2"],  
   "storage": [
-    {"name":"RazzyWhiteClock.app.js","url":"app.js"},
-    {"name":"RazzyWhiteClock.img","url":"app-icon.js","evaluate":true}
+    {"name":"RazzyClock.app.js","url":"app.js"},
+    {"name":"RazzyClock.img","url":"app-icon.js","evaluate":true}
   ]
 }
