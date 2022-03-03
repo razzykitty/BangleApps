@@ -12,9 +12,6 @@
 
   var steps; //Used for rainbow
 
-  g.setTheme({bg:"#FFFFFF"});
-  g.setTheme({fg:"#000000"});
-
   let colorBG = g.theme.bg; //Gets BG color
   let colorFG = g.theme.fg; //Gets FG color
 
