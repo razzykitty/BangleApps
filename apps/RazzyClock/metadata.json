@@ -1,7 +1,7 @@
 { "id": "RazzyClock",
   "name": "Rainbow Clock",
   "shortName":"Rainbow Clock",
-  "version":"0.07",
+  "version":"0.08",
   "description": "A rainbow backed clock",
   "type": "clock",
   "tags": "clock",
